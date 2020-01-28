@@ -1,6 +1,8 @@
 // var does not have block scope and, in the past, that led developers to use a
 // JavaScript design pattern known as Immediately Invoked Function Expression
 // (IIFE) or the Self-Executing Anonymous Function.
+// There’s a reduced need for this pattern in ES6 and beyond. That’s because
+// let and const have block scope
 /** no block scope
 
 'use strict'
